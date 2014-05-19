@@ -1,0 +1,26 @@
+{
+    "name": "indigophp/skeleton",
+    "description": "",
+    "license": "MIT",
+    "keywords": [""],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Indigo\\Skeleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Indigo\\Skeleton\\Test\\": "tests/"
+        }
+    }
+}

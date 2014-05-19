@@ -11,6 +11,18 @@ Via Composer
 $ composer require indigophp/skeleton
 ```
 
+**Note**: Package uses PSR-4 autoloader, make sure you have a fresh version of Composer.
+
+
+## Usage
+
+
+## Testing
+
+``` bash
+$ phpunit
+```
+
 
 ## Contributing
 
