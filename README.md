@@ -51,6 +51,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 ## Credits
 
 - [Tamás Barta](https://github.com/TamasBarta)
+>>>>>>> Initial commit
 - [Márk Sági-Kazár](https://github.com/sagikazarmark)
 - [All Contributors](https://github.com/indigophp/skeleton/contributors)
 
