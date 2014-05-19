@@ -56,6 +56,7 @@ By making a contribution to this project, I certify that:
 ```
 
 
+<<<<<<< HEAD
 ## Testing
 
 ``` bash
@@ -63,4 +64,6 @@ $ phpunit
 ```
 
 
+=======
+>>>>>>> Initial commit
 **Happy coding**!
