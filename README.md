@@ -1,5 +1,10 @@
 # Indigo Skeleton
 
+[![Build Status](https://travis-ci.org/indigophp/skeleton.svg?branch=develop)](https://travis-ci.org/indigophp/skeleton)
+[![Latest Stable Version](https://poser.pugx.org/indigophp/skeleton/v/stable.png)](https://packagist.org/packages/indigophp/skeleton)
+[![Total Downloads](https://poser.pugx.org/indigophp/skeleton/downloads.png)](https://packagist.org/packages/indigophp/skeleton)
+[![License](https://poser.pugx.org/indigophp/skeleton/license.png)](https://packagist.org/packages/indigophp/skeleton)
+
 **Skeleton description.**
 
 
@@ -11,8 +16,6 @@ Via Composer
 $ composer require indigophp/skeleton
 ```
 
-**Note**: Package uses PSR-4 autoloader, make sure you have a fresh version of Composer.
-
 
 ## Usage
 
@@ -20,7 +23,7 @@ $ composer require indigophp/skeleton
 ## Testing
 
 ``` bash
-$ phpunit
+$ codecept run
 ```
 
 
