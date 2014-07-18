@@ -6,7 +6,7 @@ php:
 script: vendor/bin/codecept run unit --coverage-xml
 
 before_script:
-  - composer install --dev --prefer-source
+  - composer install --prefer-source
   - wget https://scrutinizer-ci.com/ocular.phar
 
 after_script:
