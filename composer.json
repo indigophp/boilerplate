@@ -18,7 +18,12 @@
         "php": ">=5.4"
     },
     "require-dev": {
+<<<<<<< HEAD
         "phpunit/phpunit": "~4.4"
+=======
+        "phpspec/phpspec": "~2.0",
+        "henrikbjorn/phpspec-code-coverage" : "1.0.*@dev"
+>>>>>>> phpspec config
     },
     "autoload": {
         "psr-4": {

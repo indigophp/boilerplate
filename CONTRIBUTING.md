@@ -56,14 +56,11 @@ By making a contribution to this project, I certify that:
 ```
 
 
-<<<<<<< HEAD
 ## Testing
 
 ``` bash
-$ phpunit
+$ phpspec run
 ```
 
 
-=======
->>>>>>> Initial commit
 **Happy coding**!

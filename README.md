@@ -20,8 +20,6 @@ Via Composer
 $ composer require indigophp/skeleton
 ```
 
-**Note**: Package uses PSR-4 autoloader, make sure you have a fresh version of Composer.
-
 
 ## Usage
 
@@ -29,17 +27,7 @@ $ composer require indigophp/skeleton
 ## Testing
 
 ``` bash
-$ phpunit
-```
-
-
-## Usage
-
-
-## Testing
-
-``` bash
-$ phpunit
+$ phpspec run
 ```
 
 
