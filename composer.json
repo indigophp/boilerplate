@@ -1,8 +1,8 @@
 {
     "name": "indigophp/skeleton",
-    "description": "",
+    "description": "A skeleton description",
     "license": "MIT",
-    "keywords": [""],
+    "keywords": ["skeleton"],
     "homepage": "https://indigophp.com",
     "authors": [
         {
