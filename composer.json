@@ -21,6 +21,9 @@
             "Indigo\\Skeleton\\": "src/"
         }
     },
+    "config": {
+        "bin-dir": "bin"
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
