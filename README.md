@@ -6,6 +6,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/indigophp/skeleton.svg?style=flat-square)](https://packagist.org/packages/indigophp/skeleton)
 [![Quality Score](https://img.shields.io/scrutinizer/g/indigophp/skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/skeleton)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
 **Skeleton description.**
 
 
