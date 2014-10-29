@@ -1,3 +1,4 @@
-vendor/
+bin/
 tests/_output/
+vendor/
 composer.lock
