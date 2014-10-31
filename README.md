@@ -8,7 +8,7 @@
 Via Composer
 
 ``` bash
-composer require indigophp/skeleton
+$ composer require indigophp/skeleton
 ```
 
 
