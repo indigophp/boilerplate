@@ -1,0 +1,29 @@
+{
+	"name": "indigophp/skeleton",
+	"type": "fuelphp-component",
+	"description": "IndigoPHP skeleton component",
+	"license": "MIT",
+	"keywords": ["indigo", "skeleton", "fuelphp"],
+	"homepage": "https://indigophp.com",
+	"authors": [
+		{
+			"name": "Tamás Barta",
+			"email": "barta.tamas.d@gmail.com"
+		},
+		{
+			"name": "Márk Sági-Kazár",
+			"email": "mark.sagikazar@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"composer/installers": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Indigo\\Skeleton\\": "src/"
+		}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}
