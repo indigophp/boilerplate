@@ -1,6 +1,6 @@
-# Indigo Skeleton
+# Indigo Boilerplate
 
-**Skeleton description.**
+**Boilerplate description.**
 
 
 ## Install
@@ -8,22 +8,28 @@
 Via Composer
 
 ``` bash
-composer require indigophp/skeleton
+$ composer require indigophp/boilerplate
 ```
 
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/indigophp/skeleton/blob/develop/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
+
+
+## Security
+
+If you discover any security related issues,
+please contact us at [security@indigophp.com](mailto:security@indigophp.com).
 
 
 ## Credits
 
 - [Tamás Barta](https://github.com/TamasBarta)
 - [Márk Sági-Kazár](https://github.com/sagikazarmark)
-- [All Contributors](https://github.com/indigophp/skeleton/contributors)
+- [All Contributors](https://github.com/indigophp/boilerplate/contributors)
 
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/indigophp/skeleton/blob/develop/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.

@@ -1,68 +1,100 @@
 # Contributing
 
-Contributions are **welcome** and will be fully **credited**.
-
-Check the current [todo list](https://github.com/indigophp/skeleton/blob/develop/TODO.md).
-
-We accept contributions via Pull Requests on [Github](https://github.com/indigophp/skeleton).
+If you're here, you would like to contribute to this repository and you're really welcome!
 
 
-## Pull Requests
+## Bug reports
 
-- **[PSR-2 Coding Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)** - The easiest way to apply the conventions is to install [PHP Code Sniffer](http://pear.php.net/package/PHP_CodeSniffer).
+If you find a bug or a documentation issue, please report it or even better: fix it :). If you report it,
+please be as precise as possible. Here is a little list of required information:
 
-- **Add tests!** - Your patch won't be accepted if it doesn't have tests.
-
-- **Document any change in behaviour** - Make sure the README and any other relevant documentation are kept up-to-date.
-
-- **Consider our release cycle** - We try to follow semver. Randomly breaking public APIs is not an option.
-
-- **Create topic branches** - Don't ask us to pull from your master branch.
-
-- **One pull request per feature** - If you want to do more than one thing, send multiple pull requests.
-
-- **Send coherent history** - Make sure each individual commit in your pull request is meaningful. If you had to make multiple intermediate commits while developing, please squash them before submitting.
-
-- **Sign your work** - Sign all your commits to let us know you certify the [Developer's Certificate of Origin](#developers-certificate-of-origin).
+ - Precise description of the bug
+ - Details of your environment (for example: OS, PHP version, installed extensions)
+ - Backtrace which might help identifing the bug
 
 
-## Developer's Certificate of Origin
+## Security issues
 
-By contributing you certify the below:
-```
-Developer's Certificate of Origin 1.1
-
-By making a contribution to this project, I certify that:
-
-(a) The contribution was created in whole or in part by me and I
-    have the right to submit it under the open source license
-    indicated in the file; or
-
-(b) The contribution is based upon previous work that, to the best
-    of my knowledge, is covered under an appropriate open source
-    license and I have the right under that license to submit that
-    work with modifications, whether created in whole or in part
-    by me, under the same open source license (unless I am
-    permitted to submit under a different license), as indicated
-    in the file; or
-
-(c) The contribution was provided directly to me by some other
-    person who certified (a), (b) or (c) and I have not modified
-    it.
-
-(d) I understand and agree that this project and the contribution
-    are public and that a record of the contribution (including all
-    personal information I submit with it, including my sign-off) is
-    maintained indefinitely and may be redistributed consistent with
-    this project or the open source license(s) involved.
-```
+If you discover any security related issues,
+please contact us at the [security email address](../../#security) instead of submitting an issue on Github.
+This allows us to fix the issue and release a security hotfix without publicly disclosing the vulnerability.
 
 
-## Testing
+## Feature requests
+
+If you think a feature is missing, please report it or even better: implement it :). If you report it, describe the more
+precisely what you would like to see implemented and we will discuss what is the best approach for it. If you can do
+some research before submitting it and link the resources to your description, you're awesome! It will allow us to more
+easily understood/implement it.
+
+
+## Sending a Pull Request
+
+If you're here, you are going to fix a bug or implement a feature and you're the best!
+To do it, first fork the repository, clone it and create a new branch with the following commands:
 
 ``` bash
-$ phpspec run
+$ git clone git@github.com:your-name/repo-name.git
+$ git checkout -b feature-or-bug-fix-description
+```
+
+Then install the dependencies through [Composer](https://getcomposer.org/):
+
+``` bash
+$ composer install
+```
+
+Write code and tests. When you are ready, run the tests.
+(This is usually [PHPUnit](http://phpunit.de/) or [PHPSpec](http://phpspec.net/))
+
+``` bash
+$ composer test
+```
+
+When you are ready with the code, tested it and documented it, you can commit and push it with the following commands:
+
+``` bash
+$ git commit -m "Feature or bug fix description"
+$ git push origin feature-or-bug-fix-description
+```
+
+**Note:** Please write your commit messages in the imperative and follow the
+[guidelines](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) for clear and concise messages.
+
+Then [create a pull request](https://help.github.com/articles/creating-a-pull-request/) on GitHub.
+
+Please make sure that each individual commit in your pull request is meaningful.
+If you had to make multiple intermediate commits while developing,
+please squash them before submitting with the following commands
+(here, we assume you would like to squash 3 commits in a single one):
+
+``` bash
+$ git rebase -i HEAD~3
+```
+
+If your branch conflicts with the master branch, you will need to rebase and repush it with the following commands:
+
+``` bash
+$ git remote add upstream git@github.com:indigophp/repo-name.git
+$ git pull --rebase upstream master
+$ git push -f origin feature-or-bug-fix-description
 ```
 
 
-**Happy coding**!
+## Coding standard
+
+This repository follows the [PSR-2 standard](http://www.php-fig.org/psr/psr-2/) and so, if you want to contribute,
+you must follow these rules.
+
+
+## Semver
+
+We are trying to follow [semver](http://semver.org/). When you are making BC breaking changes,
+please let us know why you think it is important.
+In this case, your patch can only be included in the next major version.
+
+
+## Code of Conduct
+
+This project is released with a [Contributor Code of Conduct](CONDUCT.md).
+By participating in this project you agree to abide by its terms.
