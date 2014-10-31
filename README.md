@@ -14,7 +14,7 @@ $ composer require indigophp/skeleton
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/indigophp/skeleton/blob/develop/CONTRIBUTING.md) for details.
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 
 ## Credits
@@ -26,4 +26,4 @@ Please see [CONTRIBUTING](https://github.com/indigophp/skeleton/blob/develop/CON
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/indigophp/skeleton/blob/develop/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
