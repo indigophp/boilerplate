@@ -1,8 +1,8 @@
 # FuelPHP Skeleton
 
-[![Packagist Version](https://img.shields.io/packagist/v/indigophp/fuelphp-skeleton.svg?style=flat-square)](https://packagist.org/packages/indigophp/fuelphp-skeleton)
-[![Total Downloads](https://img.shields.io/packagist/dt/indigophp/fuelphp-skeleton.svg?style=flat-square)](https://packagist.org/packages/indigophp/fuelphp-skeleton)
+[![Latest Version](https://img.shields.io/github/release/indigophp/fuelphp-skeleton.svg?style=flat-square)](https://github.com/indigophp/fuelphp-skeleton/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Total Downloads](https://img.shields.io/packagist/dt/indigophp/fuelphp-skeleton.svg?style=flat-square)](https://packagist.org/packages/indigophp/fuelphp-skeleton)
 
 **FuelPHP Skeleton description.**
 
