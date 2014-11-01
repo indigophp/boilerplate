@@ -1,0 +1,20 @@
+{
+	"name": "indigophp/fuelphp-skeleton",
+	"description": "FuelPHP Package description",
+	"license": "MIT",
+	"keywords": ["package", "fuelphp"],
+	"homepage": "https://indigophp.com",
+	"authors": [
+		{
+			"name": "Márk Sági-Kazár",
+			"email": "mark.sagikazar@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Fuel\\Skeleton\\": "src/"
+		}
+	},
+	"prefer-stable": true,
+	"minimum-stability": "dev"
+}
