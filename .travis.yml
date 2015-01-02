@@ -11,11 +11,11 @@ matrix:
     - php: hhvm
   fast_finish: true
 
-script: bin/codecept run unit --coverage-xml
-
 before_script:
   - composer install --prefer-source
   - wget https://scrutinizer-ci.com/ocular.phar
+
+script: bin/codecept run unit --coverage-xml
 
 after_script:
   - php ocular.phar code-coverage:upload --format=php-clover tests/_output/coverage.xml
