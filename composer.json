@@ -1,5 +1,6 @@
 {
     "name": "indigophp/boilerplate",
+    "type": "project",
     "description": "Boilerplate description",
     "license": "MIT",
     "keywords": ["boilerplate"],
@@ -15,7 +16,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4",
+        "alexbilbie/proton": "~1.1"
     },
     "autoload": {
         "psr-4": {

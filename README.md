@@ -16,7 +16,7 @@
 Via Composer
 
 ``` bash
-$ composer require indigophp/boilerplate
+$ composer create-project indigophp/boilerplate
 ```
 
 
