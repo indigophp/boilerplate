@@ -27,7 +27,7 @@ $ composer require indigophp/skeleton
 ## Testing
 
 ``` bash
-$ codecept run
+$ phpunit
 ```
 
 
