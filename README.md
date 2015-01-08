@@ -7,6 +7,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/indigophp/skeleton.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/skeleton)
 [![HHVM Status](https://img.shields.io/hhvm/indigophp/skeleton.svg?style=flat-square)](http://hhvm.h4cc.de/package/indigophp/skeleton)
 [![Total Downloads](https://img.shields.io/packagist/dt/indigophp/skeleton.svg?style=flat-square)](https://packagist.org/packages/indigophp/skeleton)
+[![Dependency Status](https://img.shields.io/versioneye/d/php/indigophp:skeleton.svg?style=flat-square)](https://www.versioneye.com/php/indigophp:skeleton)
 
 **Skeleton description.**
 
