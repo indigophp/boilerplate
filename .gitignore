@@ -1,4 +1,5 @@
-/bin
-/tests/_output
-/vendor
+bin/
+build/
+vendor/
 composer.lock
+phpunit.xml
