@@ -9,21 +9,6 @@ Currently provided:
 * [Fuel package](https://github.com/indigophp/skeleton/tree/fuel-package/)
 * [FuelPHP theme](https://github.com/indigophp/skeleton/tree/fuelphp-theme/)
 * [Generic package](https://github.com/indigophp/skeleton/tree/package/)
+* [Generic package with PHPUnit](https://github.com/indigophp/skeleton/tree/phpunit/)
 * [Generic package with PHPSpec](https://github.com/indigophp/skeleton/tree/phpspec/)
-
-
-## Contributing
-
-Please see [CONTRIBUTING](https://github.com/indigophp/skeleton/blob/develop/CONTRIBUTING.md) for details.
-
-
-## Credits
-
-- [Tamás Barta](https://github.com/TamasBarta)
-- [Márk Sági-Kazár](https://github.com/sagikazarmark)
-- [All Contributors](https://github.com/indigophp/skeleton/contributors)
-
-
-## License
-
-The MIT License (MIT). Please see [License File](https://github.com/indigophp/skeleton/blob/develop/LICENSE) for more information.
+* [Proton application](https://github.com/indigophp/skeleton/tree/proton/)
