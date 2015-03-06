@@ -11,12 +11,15 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-$app = new Proton\Application;
+use Proton\Application;
+use League\Container\Container;
 
-$app['Controller'] = function() use ($app) {
-    return new Controller($app);
-};
+$bootstrap = require __DIR__.'/../app/bootstrap.php';
+$container = new Container($bootstrap);
 
-$app->get('/', 'Controller::index');
+$app = new Application;
+$app->setContainer($container);
+
+$app->get('/', 'controller::index');
 
 $app->run();

@@ -9,6 +9,8 @@
  * file that was distributed with this source code.
  */
 
+namespace Indigo\Skeleton;
+
 use Proton\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
