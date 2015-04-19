@@ -9,16 +9,37 @@
  * file that was distributed with this source code.
  */
 
+use Proton\Application;
+use League\Container\Container;
+
 /**
- * This file is responsible for any application bootstrapping before running it
+ * This file is responsible for creating the application and
+ * loading all resources which are necessary for the application to run.
  *
- * Environment loading, language, routes, wrappers, event listeners should all be set here
+ * These include:
+ *  - Environment check
+ *  - Dependency container setup
+ *  - Configuration loading (optional)
  */
 
-// Loading initialized application
-$app = require __DIR__.'/app.php';
+/**
+ * Setting up dependency container
+ */
+$diConfig = require __DIR__.'/di.php';
+$container = new Container($diConfig);
+
+/**
+ * Instantiating the application
+ */
+$app = new Application;
+$app->setContainer($container);
+
+// The application path is protected from being overwritten
+// Should be placed after configuration loading
+$app->setConfig('path', __DIR__);
 
 // Adding routes
 $app->get('/', 'controller::index');
+
 
 return $app;
