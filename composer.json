@@ -17,7 +17,11 @@
     ],
     "require": {
         "php": ">=5.4",
-        "alexbilbie/proton": "~1.1"
+        "alexbilbie/proton": "~1.1",
+        "stack/builder": "~1.0",
+        "stack/run": "~1.0",
+        "symfony/yaml": "~2.6",
+        "vlucas/phpdotenv": "~2.0-dev"
     },
     "autoload": {
         "psr-4": {

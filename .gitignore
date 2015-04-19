@@ -1,3 +1,5 @@
 build/
 vendor/
+.env
+app/parameters.yml
 composer.lock
