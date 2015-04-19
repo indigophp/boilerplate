@@ -9,8 +9,8 @@
  * file that was distributed with this source code.
  */
 
-use Proton\Application;
 use League\Container\Container;
+use Proton\Application;
 
 /**
  * This file is responsible for creating the application and
