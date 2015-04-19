@@ -14,6 +14,14 @@ use League\Container\Container;
 use Proton\Application;
 use Symfony\Component\Yaml\Yaml;
 
+if (!defined('APP_ROOT')) {
+    throw new \LogicException('The application root must be defined');
+}
+
+if (!defined('APP_ENV')) {
+    throw new \LogicException('The application environment must be defined');
+}
+
 /**
  * This file is responsible for creating the application and
  * loading all resources which are necessary for the application to run.
@@ -33,7 +41,7 @@ use Symfony\Component\Yaml\Yaml;
 $dotenv = new Dotenv;
 
 // To avoid the overhead caused by file loading, this is optional in production
-if (defined('APP_ENV') and APP_ENV == 'development') {
+if (APP_ENV == 'development') {
     $dotenv->load(APP_ROOT);
 }
 
