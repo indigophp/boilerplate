@@ -22,9 +22,15 @@ use League\Container\Container;
  *  - Configuration loading (optional)
  */
 
+/**
+ * Setting up dependency container
+ */
 $diConfig = require __DIR__.'/di.php';
 $container = new Container($diConfig);
 
+/**
+ * Instantiating the application
+ */
 $app = new Application;
 $app->setContainer($container);
 
