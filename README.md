@@ -1,6 +1,6 @@
-# Indigo Skeleton
+# Indigo Boilerplate
 
-**Skeleton description.**
+**Boilerplate description.**
 
 
 ## Install
@@ -8,7 +8,7 @@
 Via Composer
 
 ``` bash
-$ composer require indigophp/skeleton
+$ composer require indigophp/boilerplate
 ```
 
 
@@ -21,7 +21,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 - [Tamás Barta](https://github.com/TamasBarta)
 - [Márk Sági-Kazár](https://github.com/sagikazarmark)
-- [All Contributors](https://github.com/indigophp/skeleton/contributors)
+- [All Contributors](https://github.com/indigophp/boilerplate/contributors)
 
 
 ## License
