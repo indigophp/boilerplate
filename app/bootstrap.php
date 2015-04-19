@@ -15,11 +15,11 @@ use Proton\Application;
 use Symfony\Component\Yaml\Yaml;
 
 if (!defined('APP_ROOT')) {
-    throw new \LogicException('The application root must be defined');
+    throw new \RuntimeException('The application root must be defined');
 }
 
 if (!defined('APP_ENV')) {
-    throw new \LogicException('The application environment must be defined');
+    throw new \RuntimeException('The application environment must be defined');
 }
 
 /**
