@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Indigo Skeleton project.
+ * This file is part of the Indigo Boilerplate project.
  *
  * (c) Indigo Development Team
  *
@@ -9,9 +9,8 @@
  * file that was distributed with this source code.
  */
 
-namespace Indigo\Skeleton;
+namespace Indigo\Boilerplate;
 
-use Proton\Application;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -22,19 +21,6 @@ use Symfony\Component\HttpFoundation\Response;
  */
 class Controller
 {
-    /**
-     * @var Application
-     */
-    private $app;
-
-    /**
-     * @param Application $app
-     */
-    public function __construct(Application $app)
-    {
-        $this->app = $app;
-    }
-
     /**
      * Index action displaying the main site
      *

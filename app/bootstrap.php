@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Indigo Skeleton project.
+ * This file is part of the Indigo Boilerplate project.
  *
  * (c) Indigo Development Team
  *
@@ -9,11 +9,16 @@
  * file that was distributed with this source code.
  */
 
-return [
-    'di' => [
-        'controller' => [
-            'class'     => 'Indigo\Skeleton\Controller',
-            'arguments' => ['app'],
-        ],
-    ],
-];
+/**
+ * This file is responsible for any application bootstrapping before running it
+ *
+ * Environment loading, language, routes, wrappers, event listeners should all be set here
+ */
+
+// Loading initialized application
+$app = require __DIR__.'/app.php';
+
+// Adding routes
+$app->get('/', 'controller::index');
+
+return $app;
