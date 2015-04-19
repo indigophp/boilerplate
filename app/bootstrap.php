@@ -12,6 +12,7 @@
 use Dotenv\Dotenv;
 use League\Container\Container;
 use Proton\Application;
+use Stack\Builder;
 use Symfony\Component\Yaml\Yaml;
 
 if (!defined('APP_ROOT')) {
@@ -83,6 +84,8 @@ setlocale(LC_ALL, getenv('LANG'));
 
 // Adding routes
 $app->get('/', 'controller::index');
+
+$app['stack'] = new Builder;
 
 
 return $app;
