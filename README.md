@@ -1,5 +1,12 @@
 # Indigo Boilerplate
 
+[![Latest Version](https://img.shields.io/github/release/indigophp/boilerplate.svg?style=flat-square)](https://github.com/indigophp/boilerplate/releases)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![Build Status](https://img.shields.io/travis/indigophp/boilerplate.svg?style=flat-square)](https://travis-ci.org/indigophp/boilerplate)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/indigophp/boilerplate.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/boilerplate)
+[![Quality Score](https://img.shields.io/scrutinizer/g/indigophp/boilerplate.svg?style=flat-square)](https://scrutinizer-ci.com/g/indigophp/boilerplate)
+[![Total Downloads](https://img.shields.io/packagist/dt/indigophp/boilerplate.svg?style=flat-square)](https://packagist.org/packages/indigophp/boilerplate)
+
 **Boilerplate description.**
 
 
@@ -9,6 +16,16 @@ Via Composer
 
 ``` bash
 $ composer require indigophp/boilerplate
+```
+
+
+## Usage
+
+
+## Testing
+
+``` bash
+$ composer test
 ```
 
 
