@@ -1,0 +1,28 @@
+{
+    "name": "indigophp/boilerplate",
+    "type": "project",
+    "description": "Create a boilerplate project",
+    "license": "MIT",
+    "keywords": ["boilerplate"],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Tamás Barta",
+            "email": "barta.tamas.d@gmail.com"
+        },
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
