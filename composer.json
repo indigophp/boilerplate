@@ -1,5 +1,6 @@
 {
     "name": "indigophp/boilerplate",
+    "type": "symfony-bundle",
     "description": "Boilerplate description",
     "license": "MIT",
     "keywords": ["boilerplate"],
@@ -15,16 +16,28 @@
         }
     ],
     "require": {
-        "php": ">=5.4"
+        "php": ">=5.4",
+        "symfony/framework-bundle": "^2.7|^3.0"
+    },
+    "require-dev": {
+        "symfony/symfony": "^2.7|^3.0",
+        "phpunit/phpunit": "^4.4",
+        "matthiasnoback/symfony-config-test": "^1.4",
+        "matthiasnoback/symfony-dependency-injection-test": "^0.7.6"
     },
     "autoload": {
         "psr-4": {
-            "Indigo\\Boilerplate\\": "src/"
+            "Indigo\\Bundle\\BoilerplateBundle\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Indigo\\Bundle\\BoilerplateBundle\\": "Tests/"
         }
     },
     "scripts": {
-        "test": "",
-        "test-ci": ""
+        "test": "vendor/bin/phpunit",
+        "test-ci": "vendor/bin/phpunit --coverage-text --coverage-clover=build/coverage.xml"
     },
     "extra": {
         "branch-alias": {
