@@ -17,14 +17,18 @@
     "require": {
         "php": ">=5.4"
     },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1",
+        "henrikbjorn/phpspec-code-coverage" : "~1.0"
+    },
     "autoload": {
         "psr-4": {
             "Indigo\\Boilerplate\\": "src/"
         }
     },
     "scripts": {
-        "test": "",
-        "test-ci": ""
+        "test": "vendor/bin/phpspec run",
+        "test-ci": "vendor/bin/phpspec run -c phpspec.yml.ci"
     },
     "extra": {
         "branch-alias": {

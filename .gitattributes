@@ -5,3 +5,5 @@
 .travis.yml      export-ignore
 CONDUCT.md       export-ignore
 CONTRIBUTING.md  export-ignore
+phpspec.yml.ci   export-ignore
+phpspec.yml.dist export-ignore

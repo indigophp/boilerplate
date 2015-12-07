@@ -1,0 +1,5 @@
+suites:
+    boilerplate_suite:
+        namespace: Indigo\Boilerplate
+        psr4_prefix: Indigo\Boilerplate
+formatter.name: pretty
